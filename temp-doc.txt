@@ -1,0 +1,11 @@
+5.1. Can you explain the copy (cp ../temp-* .) command used above?
+It will copy all the files starting with 'temp-' at once to the current directory from the directory that is one level above.
+
+5.2. Can you explain why, in this case, we did not have to do git init?
+Git init creates a new repository and we only need to create a repository once in each project.
+Therefore, this greends-fads-first-project repository was already initiated. 
+So there is no need of running git init.
+
+5.3. Can you commit the files copied? What do you need to do? Execute the commands that are needed.
+A way of committing the files is by doing 'git add .', which is going to add all files at once, and running 'git commit * -m 'second commit'
+
